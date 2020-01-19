@@ -31,7 +31,7 @@
 Summary:        Web Services Description Language Toolkit for Java
 Name:           wsdl4j
 Version:        1.6.3
-Release:        2%{?dist}
+Release:        3%{?dist}
 Epoch:          0
 Group:          Development/Libraries
 License:        CPL
@@ -101,6 +101,9 @@ cp -pr build/javadocs/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}/
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.6.3-3
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.6.3-2
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
